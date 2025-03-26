@@ -12,5 +12,12 @@ namespace Co_Practice.Services
             userModel.Password = model.Password;
             return true;
         }
+        
+        
+        public bool SendEmail(RegistModel model)
+        {
+            
+            return EmailService.Send(model.Account,"Test Subject","Test Test");
+        }
     }
 }
