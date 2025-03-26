@@ -12,7 +12,10 @@ namespace Co_Practice.Services
     {
         public LoginService(string username, string password)
         {
-
+            while (username == null)
+            {
+                Console.WriteLine();
+            }
         }
         public void Login(string username, string password)
         {
