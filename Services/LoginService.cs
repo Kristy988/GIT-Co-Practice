@@ -29,15 +29,15 @@ namespace Co_Practice.Services
                 Console.WriteLine();
             }
         }
-        public void Login(string username, string password)
+        public bool Login(string username, string password)
         {
             if (username == password)
             {
-                Console.WriteLine("登入成功");
+                return true;
             }
             else
             {
-                Console.WriteLine("登入失敗");
+                return false;
             }
         }
     }
