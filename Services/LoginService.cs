@@ -16,6 +16,18 @@ namespace Co_Practice.Services
             {
                 Console.WriteLine();
             }
+            while (password == null)
+            {
+                Console.WriteLine();
+            }
+            while (username == null)
+            {
+                Console.WriteLine();
+            }
+            while (username == null)
+            {
+                Console.WriteLine();
+            }
         }
         public void Login(string username, string password)
         {
